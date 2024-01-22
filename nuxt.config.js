@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       // iPhoneでモバイルアプリのように表示する
-      { name: "apple-mobile-web-app-capable", content: "yes" }
+      // { name: "apple-mobile-web-app-capable", content: "yes" }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
