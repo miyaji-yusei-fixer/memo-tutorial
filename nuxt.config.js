@@ -82,4 +82,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // GithubPagesで公開する設定
+  router: {
+    base: '/memo-tutorial/'
+  },
+  generate: {
+    dir: 'docs'
+  },
 }
